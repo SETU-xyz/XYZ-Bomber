@@ -17,16 +17,7 @@ $(document).ready(() => {
                     url: `https://www.ieatery.com.bd/otp-verify?phn=${mobile}`},
                 {
                     method: 'GET',
-                    url: `https://www.ieatery.com.bd/otp-verify?phn=${mobile}`},
-                {
-                    method: 'GET',
-                    url: `https://www.ieatery.com.bd/otp-verify?phn=${mobile}`},
-                {
-                    method: 'GET',
-                    url: `https://www.ieatery.com.bd/otp-verify?phn=${mobile}`},
-                {
-                    method: 'GET',
-                    url: `https://www.ieatery.com.bd/otp-verify?phn=${mobile}`}
+                    url: `https://ss.binge.buzz/otp/send/loginphone=${mobile}`}
 
             ];
 
