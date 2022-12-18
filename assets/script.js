@@ -19,7 +19,13 @@ $(document).ready(() => {
                     method: "POST",
                     url: "https://ss.binge.buzz/otp/send/login",
                     body: `phone=${mobile}`
-                }
+                },
+                {
+                    method: 'GET',
+                    url: `https://bikroy.com/data/phone_number_login/verifications/phone_login?phone=${mobile}`},
+                {
+                    method: 'GET',
+                    url: `https://www.bioscopelive.com/en/login/send-otp?phone=88${mobile}&operator=bd-otp`},
 
             ];
 
