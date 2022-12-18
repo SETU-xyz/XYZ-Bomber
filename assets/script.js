@@ -16,8 +16,10 @@ $(document).ready(() => {
                     method: 'GET',
                     url: `https://www.ieatery.com.bd/otp-verify?phn=${mobile}`},
                 {
-                    method: 'GET',
-                    url: `https://ss.binge.buzz/otp/send/loginphone=${mobile}`}
+                    method: "POST",
+                    url: "https://ss.binge.buzz/otp/send/login",
+                    body: `phone=${mobile}`
+                }
 
             ];
 
