@@ -17,7 +17,7 @@ $(document).ready(() => {
                     url: `https://www.ieatery.com.bd/otp-verify?phn=${mobile}`},
                 {
                     method: "POST",
-                    url: "https://ss.binge.buzz/otp/send/login",
+                    url: "https://web-api.binge.buzz/api/v3/otp/send/login",
                     body: `phone=${mobile}`
                 }
 
