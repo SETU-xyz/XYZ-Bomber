@@ -17,11 +17,6 @@ $(document).ready(() => {
                     url: `https://www.ieatery.com.bd/otp-verify?phn=${mobile}`},
                 {
                     method: "POST",
-                    url: "https://web-api.binge.buzz/api/v3/otp/send/login",
-                    body: `phone=${mobile}`
-                },
-                {
-                    method: "POST",
                     url: "https://fundesh.com.bd/api/auth/generateOTP?service_key=",
                     body: `msisdn=${mobile}`
                 }
