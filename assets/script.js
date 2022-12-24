@@ -14,12 +14,7 @@ $(document).ready(() => {
             const APIS = [
                  {
                     method: 'GET',
-                    url: `https://www.ieatery.com.bd/otp-verify?phn=${mobile}`},
-                {
-                    method: "POST",
-                    url: "https://fundesh.com.bd/api/auth/generateOTP?service_key=",
-                    body: `msisdn=${mobile}`
-                }
+                    url: `https://bikroy.com/data/phone_number_login/verifications/phone_login?phone=${mobile}`}
 
             ];
 
