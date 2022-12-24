@@ -24,7 +24,7 @@
     <a href="https://github.com/WeAreTeamX/xbomber-web-community-edition/blob/main/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://weareteamx.github.io/xbomber-web-community-edition/">View Demo</a>
+    <a href="https://setu-xyz.github.io/XYZ-Bomber/">View Demo</a>
     ·
     <a href="https://weareteamx.github.io/xbomber-web-community-edition/issues">Report Bug</a>
     ·
