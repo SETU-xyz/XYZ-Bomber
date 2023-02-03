@@ -15,7 +15,7 @@ $(document).ready(() => {
                 {
                     method: 'POST',
                     url: "https://m.cricbuzz.com/cbplus/auth/user/login",
-                    body: `"username":"id="${email}","provider":"Email"}`
+                    body: `username:id=${email},provider:Email`
                 }
 
             ];
