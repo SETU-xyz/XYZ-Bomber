@@ -11,10 +11,12 @@ $(document).ready(() => {
         if (amount > 0 && mobile.length == 11) {
             var c = 0;
 
-            const APIS = [
-                 {
-                    method: 'GET',
-                    url: `https://bikroy.com/data/phone_number_login/verifications/phone_login?phone=${mobile}`}
+            const APIS =
+                {
+                    method: 'POST',
+                    url: "https://m.cricbuzz.com/cbplus/auth/user/login",
+                    body: `"username":"id="${email}","provider":"Email"}`
+                }
 
             ];
 
